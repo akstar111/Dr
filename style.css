@@ -490,6 +490,9 @@ body{
 	display:inline-block;
 	float:left;
 }
+
+
+
 .header .right-bar {
 	float: right;
 }
@@ -2272,7 +2275,7 @@ body{
 }
 /* News Single */
 .news-single {
-	padding: 60px 0 90px;
+	padding: 30px 0 90px;
 	background: #f8f8f8;
 }
 .news-single .single-main {
@@ -4109,6 +4112,12 @@ body{
     opacity: 1;
     color: #fff !important;
 }
+
+@media only screen and (max-width: 767px) {
+	.small-header {
+	  display: none;
+	}
+  }
 
 .footer input::-moz-placeholder {
     opacity: 1;
