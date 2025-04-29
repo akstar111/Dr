@@ -54,6 +54,11 @@ body{
 	font-size:14px;
 	color:#888;
 }
+
+.fs-5-5{
+	font-size: 18px;
+}
+
 .pro-features {
 	position: fixed;
 	right: -300px;
