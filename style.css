@@ -3385,9 +3385,9 @@ body{
 	margin-top:50px;
 }
 .contact-us .single-info {
-	background: #1a76d1;
+	background: #ffffff;
 	padding: 40px 60px;
-	height: 150px;
+	
 	border-radius: 10px;
 	position:relative;
 	-webkit-transition: all .3s ease-out 0s;
@@ -3406,7 +3406,7 @@ body{
     margin: 0 auto;
     width: 80%;
     height: 90%;
-    background:#1A76D1;
+    background:#ffffff;
     opacity: 0;
     filter: blur(10px);
     -webkit-transition: all .3s ease-out 0s;
@@ -3421,15 +3421,7 @@ body{
 .contact-us .single-info:hover{
 	transform: translateY(-5px);
 }
-.contact-us .single-info i{
-	font-size:42px;
-	color:#fff;
-	position:absolute;
-	left:40px;
-}
-.contact-us .single-info .content {
-	margin-left: 45px;
-}
+
 .contact-us .single-info .content h3{
 	color:#fff;
 	font-size:18px;
@@ -4363,6 +4355,12 @@ body {
 
 	.carousel-caption{
 		padding-bottom: 0 !important;
+	}
+}
+
+@media(min-width: 900px) {
+	.slide-text{
+		font-size: 18px !important;
 	}
 }
 
