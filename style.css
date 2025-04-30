@@ -4301,7 +4301,6 @@ body {
 .owl-carousel .owl-item .card .name {
     position: absolute;
     bottom: -20px;
-    left: 33%;
     color: #101c81;
     font-size: 1.1rem;
     font-weight: 600;
@@ -4309,6 +4308,9 @@ body {
     padding: 0.3rem 0.4rem;
     border-radius: 5px;
     box-shadow: 2px 3px 15px #3c405a;
+	left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%)
 }
 
 .owl-carousel .owl-item .card {
@@ -4344,19 +4346,6 @@ body {
     /* background: #83b8e7 !important; */
 }
 
-@media(min-width: 480.6px) and (max-width: 575.5px) {
-    .owl-carousel .owl-item .card .name {
-        left: 24%;
-    }
-
-	
-}
-
-@media(max-width: 360px) {
-    .owl-carousel .owl-item .card .name {
-        left: 30%;
-    }
-}
 
 @media(max-width: 660px) {
     .carousel-inner > .carousel-item > img {
