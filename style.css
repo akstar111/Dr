@@ -4186,6 +4186,7 @@ body{
 ===========================*/
 
 
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 figure.snip1390 {
@@ -4347,10 +4348,35 @@ body {
     .owl-carousel .owl-item .card .name {
         left: 24%;
     }
+
+	
 }
 
 @media(max-width: 360px) {
     .owl-carousel .owl-item .card .name {
         left: 30%;
     }
+}
+
+@media(max-width: 660px) {
+    .carousel-inner > .carousel-item > img {
+		width:640px !important;
+		height:190px !important;
+		object-fit: cover;
+	  }
+}
+
+@media(max-width: 900px) {
+    .slide-btn {
+		font-size: 10px !important;
+		padding: 6px !important;
+	  }
+
+	.carousel-caption{
+		padding-bottom: 0 !important;
+	}
+}
+
+.pb--1{
+	padding-bottom: -10px !important;
 }
