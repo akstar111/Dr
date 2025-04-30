@@ -4380,3 +4380,18 @@ body {
 .pb--1{
 	padding-bottom: -10px !important;
 }
+
+.logo-text{
+	width: 250px !important;
+	height: 80px !important;
+}
+
+.logo-text-g{
+	width: 350px !important;
+	height: 40px !important;
+}
+
+.logo-text-k{
+	width: 160px !important;
+	height: 120px !important;
+}
